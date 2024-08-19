@@ -49,6 +49,15 @@ const BallGame: React.FC = () => {
 
   const [bullets, setBullets] = useState<Bullet[]>([]);
 
+
+  useEffect(() => {
+    ball1.current.speed = speedBall1;
+  }, [speedBall1]);
+
+  useEffect(() => {
+    ball2.current.speed = speedBall2;
+  }, [speedBall2]);
+
   const shootBullet = useCallback(
     (ball: React.MutableRefObject<Ball>, enemyBall: React.MutableRefObject<Ball>, firedBy: 'ball1' | 'ball2') => {
       const bulletSpeed = ball.current.speed;
