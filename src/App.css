@@ -1,0 +1,23 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.app__score {
+  margin-bottom: 20px;
+}
+
+.app__menu {
+  display: flex;
+  width: 800px;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.player__menu {
+display: flex;
+width: 200px;
+flex-direction: column;
+}

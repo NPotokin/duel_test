@@ -1,0 +1,22 @@
+  .settings {
+    padding: 20px;
+  }
+  
+  .settings__control {
+    margin-bottom: 15px;
+  }
+  
+  .settings__control label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .settings__control input[type="range"] {
+    width: 80%;
+  }
+  
+  .settings__control span {
+    display: inline-block;
+    margin-top: 5px;
+  }
+  
